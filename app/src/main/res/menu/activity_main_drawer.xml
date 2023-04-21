@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/group1"
+        android:checkableBehavior="single"
+        android:label="Profile">
+
+        <item
+            android:id="@+id/navProfile"
+            android:icon="@drawable/user2"
+            android:title="PROFILE" />
+    </group>
+
+    <group
+        android:id="@+id/group2"
+        android:orderInCategory="2"
+        android:checkableBehavior="single"
+        android:label="Main">
+        <item
+            android:id="@+id/navHome"
+            android:title="HOME"
+            android:icon="@drawable/home"/>
+
+        <item
+            android:id="@+id/navDetect"
+            android:icon="@drawable/detectblack"
+            android:title="DETECT DISEASE" />
+
+        <item
+            android:id="@+id/navLearn"
+            android:icon="@drawable/notes2"
+            android:title="LEARN ABOUT GROOT" />
+
+        <item
+            android:id="@+id/navSettings"
+            android:icon="@drawable/settingsdark"
+            android:title="SETTINGS" />
+
+        <item
+            android:id="@+id/navLogOut"
+            android:icon="@drawable/logoutdark"
+            android:title="LOG OUT" />
+    </group>
+
+    <group android:id="@+id/group3"
+        android:orderInCategory="2"
+        android:checkableBehavior="single"
+        android:label="Support">
+
+        <item
+            android:id="@+id/navAboutUs"
+            android:icon="@drawable/abtdark"
+            android:title="ABOUT US" />
+
+        <item
+            android:id="@+id/navContact"
+            android:icon="@drawable/contact"
+            android:title="CONTACT US" />
+    </group>
+</menu>

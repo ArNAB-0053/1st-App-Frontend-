@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="95dp"
+        />
+    <gradient
+        android:angle="315"
+        android:startColor="#FFC000"
+        android:centerColor="#548235"
+        android:endColor="#262626"
+        android:type="linear"
+
+        />
+    <padding
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp"
+        android:bottom="0dp"
+        />
+
+    <stroke
+        android:width="3dp"
+        android:color="@color/cardview_shadow_end_color" />
+</shape>
